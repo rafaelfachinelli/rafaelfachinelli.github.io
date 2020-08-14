@@ -1,5 +1,5 @@
 <h4 align="center"> 
-	🚧 💼 Portifólio em construção... 🚧
+	🚧 💼 Portfólio em construção... 🚧
 </h4>
 
 ---
