@@ -1,3 +1,9 @@
+<div align="center">
+
+<img src="./.github/logo.svg" width="150" heigth="150" />
+
+</div>
+
 <h4 align="center"> 
 	🚧 💼 Portfólio em construção... 🚧
 </h4>
