@@ -14,18 +14,43 @@
 .menu-container header .social {
   display: flex;
   align-items: center;
+  margin-top: 50px;
+}
+
+.menu-container header .social .img-back{
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+
+  background: var(--color-secondary);
+}
+
+.menu-container header .social .githubIcon {
+  border-radius: 50%;
+}
+
+.menu-container header .social .linkedinIcon {
+  
+  border-radius: .8rem;
+}
+
+.menu-container header .social .emailIcon {
+  height: 28px;
+  width: 40px;
+  border-radius: .8rem;
 }
 
 .menu-container header .social img {
   height: 40px;
   width: 40px;
-  margin: 10px;
 }
 
 .menu-container header .logo img {
   height: 70px;
   width: 70px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .menu-container nav {
