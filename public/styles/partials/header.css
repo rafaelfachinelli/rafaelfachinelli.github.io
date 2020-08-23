@@ -1,4 +1,4 @@
-.container__menu .menu__header {
+.header {
   height: 4.7rem;
   display: flex;
   justify-content: space-around;
@@ -7,20 +7,20 @@
   border-bottom: 2px solid var(--color-primary);
 }
 
-.container__menu .menu__header .menu__social {
+.header__social {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 4.5rem;
 }
 
-.container__menu .menu__header .menu__social .menu__icon {
+.header__icon {
   width: 3.3rem;
   margin-left: 4rem;
   margin-right: 4rem;
 }
 
-.container__menu .menu__header .menu__logo {
+.header__logo {
   height: 7rem;
   width: 7rem;
   margin-top: 1rem;
