@@ -1,15 +1,15 @@
-.menu-container {
+.menu__container {
   width: 100vw;
 }
 
-.content-container {
+.content__container {
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer-container {
+.footer__container {
   position: absolute;
   bottom: 0;
   width: 100%;
