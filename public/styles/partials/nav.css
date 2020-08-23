@@ -1,4 +1,4 @@
-.menu__container .menu__nav {
+.container__menu .menu__nav {
   height: 4.7rem;
   display: flex;
   align-items: center;
@@ -7,7 +7,7 @@
   background: var(--color-secondary);
 }
 
-.menu__container .menu__nav .menu__link {
+.container__menu .menu__nav .menu__link {
   text-decoration: none;
   margin: 10px;
 
