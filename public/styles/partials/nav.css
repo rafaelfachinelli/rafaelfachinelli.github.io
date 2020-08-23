@@ -1,0 +1,15 @@
+.menu-container nav {
+  height: 4.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--color-secondary);
+}
+
+.menu-container nav a {
+  text-decoration: none;
+  margin: 10px;
+
+  color: var(--color-text-in-primary);
+}

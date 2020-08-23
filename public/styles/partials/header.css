@@ -1,0 +1,27 @@
+.menu-container header {
+  height: 4.7rem;
+  display: flex;
+  justify-content: space-around;
+
+  background: var(--color-secondary-dark);
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.menu-container header .social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4.5rem;
+}
+
+.menu-container header .social img {
+  width: 3.3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.menu-container header .logo img {
+  height: 7rem;
+  width: 7rem;
+  margin-top: 1rem;
+}
