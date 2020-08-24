@@ -4,9 +4,11 @@
 
 </div>
 
-<h4 align="center">
-	<p><img src="./.github/logo.svg" width="50" heigth="50" /></p>
-	
+<p align="center">
+<p><img src="./.github/logo.svg" width="50" heigth="50" /></p>
+</p>
+
+<h4 align="center"
 	🚧 💼 Portfólio em construção... 🚧
 </h4>
 
