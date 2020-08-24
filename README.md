@@ -5,8 +5,7 @@
 </div>
 
 <p align="center">
-<img src="./.github/logo.svg" width="50" heigth="50" />
-<p>A marca RFL existe em mim desde criança, onde o desejo de deixar um registro no mundo já existia em meu coração. Estou colocando para fora, deixar uma marca no mundo da tecnologia é um plano que está apenas começando.</p>
+*A marca RFL existe em mim desde criança, onde o desejo de deixar um registro no mundo já existia em meu coração. Estou colocando para fora, deixar uma marca no mundo da tecnologia é um plano que está apenas começando.*
 </p>
 
 ---
