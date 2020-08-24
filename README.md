@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-<p><img src="./.github/logo.svg" width="50" heigth="50" /></p>
+<img src="./.github/logo.svg" width="50" heigth="50" />
 </p>
 
 <h4 align="center"
