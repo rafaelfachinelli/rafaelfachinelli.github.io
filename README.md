@@ -4,9 +4,11 @@
 
 </div>
 
-<h4 align="center"> 
-	🚧 💼 Portfólio em construção... 🚧
-</h4>
+<p align="center">
+ 
+*A marca RFL existe em mim desde criança, onde o desejo de deixar um registro no mundo já existia em meu coração. Estou colocando para fora, deixar uma marca no mundo da tecnologia é um plano que está apenas começando.*
+
+</p>
 
 ---
 ### :boy: **Autor**
