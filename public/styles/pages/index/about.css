@@ -24,6 +24,9 @@
 }
 
 .info__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: about;
   padding: 1.5rem;
 }
@@ -47,7 +50,6 @@
 .info__button:hover {
   background: var(--color-primary-darker);
 }
-
 
 .about__avatar {
   grid-area: avatar;

@@ -6,14 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./public/assets/images/logo.svg" type="image/x-icon">
   <link rel="stylesheet" href="./public/styles/main.css">
-  <link rel="stylesheet" href="./public/styles/index.css">
+  <link rel="stylesheet" href="./public/styles/pages/index/about.css">
+  <link rel="stylesheet" href="./public/styles/pages/index/projects.css">
   <link rel="stylesheet" href="./public/styles/partials/containers.css">
   <link rel="stylesheet" href="./public/styles/partials/header.css">
   <link rel="stylesheet" href="./public/styles/partials/nav.css">
   <link rel="stylesheet" href="./public/styles/partials/footer.css">
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins:wght@400;700&display=swap"
     rel="stylesheet">
-  <title>Rafael Fachinelli</title>
+  <title>Rafael Fachinelli | Full Stack Developer</title>
 </head>
 
 <body>
@@ -22,9 +23,15 @@
       <header class="header">
 
         <div class="header__social">
-          <img class="header__icon" src="./public/assets/icons/github.svg" alt="GitHub">
-          <img class="header__icon" src="./public/assets/icons/linkedin.svg" alt="LinkedIn">
-          <img class="header__icon" src="./public/assets/icons/mail.svg" alt="E-mail">
+          <a href="https://github.com/rafaelfachinelli" target="blank">
+            <img class="header__icon" src="./public/assets/icons/github.svg" alt="GitHub">
+          </a>
+          <a href="https://www.linkedin.com/in/rafaelfachinelli/?locale=en_US" target="blank">
+            <img class="header__icon" src="./public/assets/icons/linkedin.svg" alt="LinkedIn">
+          </a>
+          <a href="mailto:rafael.fachinelli@fatec.sp.gov.br" target="blank">
+            <img class="header__icon" src="./public/assets/icons/mail.svg" alt="E-mail">
+          </a>
         </div>
         
         <nav class="nav">
@@ -43,12 +50,49 @@
 
           <div class="about__info">
             <p class="info__title">Full Stack</p>
-            <p class="info__description">Caprice, zeal and passion transformed into technologies for web systems.</p>
+            <div class="info__description">Caprice, zeal and passion transformed into technologies for web systems.</div>
             <a href="#" class="info__button">About me</a>
           </div>
 
           <div class="about__avatar">
             <img src="./public/assets/images/avatar.jpg" alt="Profile Rafael Fachinelli" class="avatar__image">
+          </div>
+
+        </div>
+
+        <div class="main__projects">
+
+          <p class="projects__title">Recent Projects</p>
+
+          <div class="project">
+            <div class="project__image">
+              <img src="./public/assets/images/project--first.png" alt="eNaturalist">
+            </div>
+            <p class="project__about">
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+
+          <div class="project">
+            <div class="project__image">
+              <img src="./public/assets/images/project--first.png" alt="eNaturalist">
+            </div>
+            <p class="project__about">
+              Lorem ipsum dolor sit amet consectetur.
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+
+          <div class="project">
+            <div class="project__image">
+              <img src="./public/assets/images/project--first.png" alt="eNaturalist">
+            </div>
+            <p class="project__about">
+              Lorem ipsum dolor sit amet consectetur.
+              Lorem ipsum dolor sit amet consectetur.
+              Lorem ipsum dolor sit amet consectetur.
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
           </div>
 
         </div>

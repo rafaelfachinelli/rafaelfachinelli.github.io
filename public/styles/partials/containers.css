@@ -7,10 +7,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background: var(--color-background) url("../../assets/images/avatar_background.png") no-repeat bottom center;
 }
 
 .container__footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  width: 100vw;
 }
