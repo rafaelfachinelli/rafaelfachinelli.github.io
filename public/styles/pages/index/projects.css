@@ -6,13 +6,13 @@
   padding: 1.5rem;
 }
 
-.main__projects .projects__title {
+.projects__title {
   font: 700 3rem Poppins;
   margin: 1.5rem 0;
   color: var(--color-primary-light);
 }
 
-.main__projects .project {
+.project {
   display: flex;
   max-width: 56rem;
   padding: 1.5rem;
@@ -22,11 +22,11 @@
   border: 1px solid var(--color-text-in-primary);
 }
 
-.main__projects .project + .project {
+.project + .project {
   margin-top: 1.5rem;
 }
 
-.main__projects .project__image {
+.project__image {
   display: flex;
   justify-content: center;
   align-items: center;
