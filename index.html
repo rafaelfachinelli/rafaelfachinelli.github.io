@@ -1,116 +1,121 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./public/assets/images/logo.svg" type="image/x-icon">
-  <link rel="stylesheet" href="./public/styles/main.css">
-  <link rel="stylesheet" href="./public/styles/pages/index/about.css">
-  <link rel="stylesheet" href="./public/styles/pages/index/projects.css">
-  <link rel="stylesheet" href="./public/styles/partials/containers.css">
-  <link rel="stylesheet" href="./public/styles/partials/header.css">
-  <link rel="stylesheet" href="./public/styles/partials/nav.css">
-  <link rel="stylesheet" href="./public/styles/partials/footer.css">
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins:wght@400;700&display=swap"
     rel="stylesheet">
-  <title>Rafael Fachinelli | Full Stack Developer</title>
+    <title>Rafael Fachinelli | Full Stack Developer</title>
+  <link rel="stylesheet" href="./public/styles/index.css">
 </head>
-
 <body>
-  <div class="container">
-    <div class="container__menu">
-      <header class="header">
-
-        <div class="header__social">
-          <a href="https://github.com/rafaelfachinelli" target="blank">
-            <img class="header__icon" src="./public/assets/icons/github.svg" alt="GitHub">
-          </a>
-          <a href="https://www.linkedin.com/in/rafaelfachinelli/?locale=en_US" target="blank">
-            <img class="header__icon" src="./public/assets/icons/linkedin.svg" alt="LinkedIn">
-          </a>
-          <a href="mailto:rafael.fachinelli@fatec.sp.gov.br" target="blank">
-            <img class="header__icon" src="./public/assets/icons/mail.svg" alt="E-mail">
-          </a>
-        </div>
-        
-        <nav class="nav">
-          <a class="nav__link" href="">projects</a>
-          <a class="nav__link" href="">publications</a>
-          <a class="nav__link" href="">about</a>
-        </nav>
-
-        <img class="header__logo" src="./public/assets/images/logo.svg" alt="Logo Rafael Fachinelli">
-
-      </header>
+  <nav id="menu">
+    <div class="menu__social">
+      <a class="social__link" href="https://github.com/rafaelfachinelli" target="blank">
+        <img src="./public/assets/icons/github.svg" alt="GitHub">
+      </a>
+      <a class="social__link" href="https://www.linkedin.com/in/rafaelfachinelli/?locale=en_US" target="blank">
+        <img src="./public/assets/icons/linkedin.svg" alt="LinkedIn">
+      </a>
+      <a class="social__link" href="mailto:rafael.fachinelli@fatec.sp.gov.br" target="blank">
+        <img src="./public/assets/icons/email.svg" alt="E-mail">
+      </a>
     </div>
-    <div class="container__main">
-      <main>
-        <div class="main__about">
 
-          <div class="about__info">
-            <p class="info__title">Full Stack</p>
-            <div class="info__description">Caprice, zeal and passion transformed into technologies for web systems.</div>
-            <a href="#" class="info__button">About me</a>
-          </div>
+    <div class="menu_page">
+      <a class="page__link page__link--menu" href="">projects</a>
+      <a class="page__link page__link--menu" href="">blog</a>
+      <a class="page__link page__link--menu" href="">about</a>
+    </div>
 
-          <div class="about__avatar">
-            <img src="./public/assets/images/avatar.jpg" alt="Profile Rafael Fachinelli" class="avatar__image">
-          </div>
+    <div class="menu__logo">
+      <img src="./public/assets/images/logo.svg" alt="Rafael Fachinelli Logo">
+    </div>
+  </nav>
 
+  <header id="header">
+    <div class="header__me">
+      <h1>Rafael Fachinelli</h1>
+      <button>My Projects</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="main__project">
+
+      <div class="project__image">
+        <img src="./logo.svg" alt="Logo">
+      </div>
+
+      <div class="project__details">
+
+        <div class="project__title">
+          <p>Project Title</p>
         </div>
 
-        <div class="main__projects">
+        <hr>
 
-          <div class="projects__title">Recent Projects</div>
-
-          <div class="project">
-            <div class="project__image">
-              <img src="./public/assets/images/project--first.png" alt="eNaturalist">
-            </div>
-            <div class="project__about">
-              <p>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-            </div>
-          </div>
-
-          <div class="project">
-            <div class="project__image">
-              <img src="./public/assets/images/project--first.png" alt="eNaturalist">
-            </div>
-            <div class="project__about">
-              <p>
-                Lorem ipsum dolor sit amet consectetur.
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-            </div>
-          </div>
-
-          <div class="project">
-            <div class="project__image">
-              <img src="./public/assets/images/project--first.png" alt="eNaturalist">
-            </div>
-            <div class="project__about">
-              <p>
-                Lorem ipsum dolor sit amet consectetur.
-                Lorem ipsum dolor sit amet consectetur.
-                Lorem ipsum dolor sit amet consectetur.
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-            </div>
-          </div>
-
+        <div class="project__description">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ad ul
+            lam quasi, qui adipisci necessitatibus, eos obcaecati unde illo dist
+            inctio hic mollitia aliquid, id labore repudiandae consectetur dolor
+            emque provident inventore!
+          </p>
         </div>
-      </main>
+
+        <div class="project__technologies">
+          <ul class="technologies__list">
+            <li class="list__item--tech">HTML5</li>
+            <li class="list__item--tech">CSS3</li>
+            <li class="list__item--tech">JavaScript</li>
+            <li class="list__item--tech">TypeScript</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="container__footer">
-      <footer class="footer">
-        <p class="footer__developer">© 2020 Rafael Fachinelli</p>
-        <img class="footer__logo" src="./public/assets/images/logo.svg" alt="">
-      </footer>
+
+    <div class="main__project">
+
+      <div class="project__details">
+
+        <div class="project__title">
+          <p>Project Title</p>
+        </div>
+
+        <hr>
+
+        <div class="project__description">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ad ul
+            lam quasi, qui adipisci necessitatibus, eos obcaecati unde illo dist
+            inctio hic mollitia aliquid, id labore repudiandae consectetur dolor
+            emque provident inventore!
+          </p>
+        </div>
+
+        <div class="project__technologies">
+          <ul class="technologies__list">
+            <li class="list__item--tech">HTML5</li>
+            <li class="list__item--tech">CSS3</li>
+            <li class="list__item--tech">JavaScript</li>
+            <li class="list__item--tech">TypeScript</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project__image">
+        <img src="./logo.svg" alt="Logo">
+      </div>
+
     </div>
-  </div>
+  </main>
+  
+  <footer class="footer">
+    <div class="footer__content">
+      Rafael Fachinelli
+    </div>
+  </footer>
 </body>
-
 </html>

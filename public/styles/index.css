@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: pink;
+}
+
+.debug {
+  border: 1px solid red;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: .5rem;
+
+  background: black;
+  border-bottom: 4px solid blue;
+}
+
+.menu__social {
+  display: flex;
+  align-items: center;
+}
+
+.social__link {
+  margin: 0 .5rem;
+}
+
+.social__link img {
+  width: 1.6rem;
+}
+
+.page__link {
+  text-decoration: none;
+}
+
+.page__link--menu {
+  color: white;
+  margin: 0 1.5rem;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+#header .header__me {
+  width: 100%;
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: green;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__project {
+  width: 80%;
+  height: 33vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project__image {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: red;
+}
+
+.project__details {
+  width: 60%;
+  height: 100%;
+  padding: .5rem;
+
+  background: white;
+}
+
+.project__title {
+
+}
+
+.project__details hr {
+  margin: .5rem 0;
+}
+
+.project__description {
+
+}
+
+.technologies__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: .5rem;
+}
+
+.list__item--tech {
+  display: block;
+  text-decoration: none;
+  margin: .5rem;
+  padding: .5rem;
+
+  border-radius: .5rem;
+  background: blue;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__content {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: black;
+  border-top: 4px solid blue;
+  color: white;
+}
