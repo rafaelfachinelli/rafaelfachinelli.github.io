@@ -1,9 +1,15 @@
 :root {
   --color-text-white: #F2F2F2;
+  --color-text-black: #4F4F4F;
+  --color-background-lighter: #828282;
+  --color-background-light: #4F4F4F;
   --color-background-dark: #333333;
-  --color-primary-lighter: #56CCF2;
+  --color-primary-lighter: #45aaf2;
   --color-primary-light: #2D90DB;
   --color-primary: #2F80ED;
+  --color-primary-dark: #3867d6;
+  --color-secondary: #F2994A;
+  --color-secondary-dark: #fa8231;
 
   font-size: 60%;
 }
@@ -20,6 +26,7 @@ html {
 
 body {
   font: 400 1.6rem Poppins;
+  color: var(--color-text-black);
   background: pink;
 }
 
@@ -43,11 +50,16 @@ body {
 }
 
 .social__link {
-  margin: 0 .5rem;
+  margin: 0 1.5rem;
 }
 
 .social__link img {
   width: 2.6rem;
+  transition: .2s;
+}
+
+.social__link img:hover {
+  filter: invert(100%);
 }
 
 .page__link {
@@ -74,7 +86,25 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: var(--color-primary-light);
+  background: var(--color-primary);
+}
+
+.me__name {
+  margin: 1.6rem 0;
+  color: var(--color-text-white);
+}
+
+.page__link--header {
+  padding: .8rem;
+  transition: .2s;
+
+  border-radius: .5rem;
+  color: var(--color-text-white);
+  background: var(--color-primary-dark);
+}
+
+.page__link--header:hover {
+  filter: invert(100%);
 }
 
 #main {
