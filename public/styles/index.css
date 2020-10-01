@@ -37,6 +37,10 @@ body {
 }
 
 #menu {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -91,7 +95,7 @@ body {
 
   background-size: 300%;
   background-image: linear-gradient(
-    45deg, 
+    45deg,
     var(--color-background-light),
     var(--color-primary-lighter),
     var(--color-primary),
@@ -170,7 +174,6 @@ body {
   justify-content: space-between;
   padding: 1.6rem;
   
-
   background: white;
 }
 
@@ -183,6 +186,7 @@ body {
 }
 
 .details__description {
+  text-align: justify;
 }
 
 .project__technologies {
@@ -201,6 +205,7 @@ body {
   margin: .5rem;
   padding: .5rem;
 
+  font-size: 1.2rem;
   border-radius: .5rem;
   background: var(--color-primary);
   color: var(--color-text-white);
