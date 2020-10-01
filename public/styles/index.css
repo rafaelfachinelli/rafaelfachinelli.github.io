@@ -1,4 +1,5 @@
 :root {
+  --color-body: #F2F2F2;
   --color-text-white: #F2F2F2;
   --color-text-black: #4F4F4F;
   --color-background-lighter: #828282;
@@ -10,6 +11,7 @@
   --color-primary-dark: #3867d6;
   --color-secondary: #F2994A;
   --color-secondary-dark: #fa8231;
+  --color-border: #E0E0E0;
 
   font-size: 60%;
 }
@@ -27,7 +29,7 @@ html {
 body {
   font: 400 1.6rem Poppins;
   color: var(--color-text-black);
-  background: pink;
+  background: var(--color-body);
 }
 
 .debug {
@@ -78,20 +80,41 @@ body {
   justify-content: center;
 }
 
-#header .header__me {
+.header__me {
   width: 100%;
   height: 33vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: gradient 15s ease-in-out infinite;
 
-  background: var(--color-primary);
+  background-size: 300%;
+  background-image: linear-gradient(
+    45deg, 
+    var(--color-background-light),
+    var(--color-primary-lighter),
+    var(--color-primary),
+    var(--color-border),
+    var(--color-background-dark),
+    #192a56
+  );
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+
+  50% { background-position: 100% 50%; }
+
+  100% { background-position: 0% 50%; }
 }
 
 .me__name {
   margin: 1.6rem 0;
+
+  font: 700 3.5rem Poppins;
   color: var(--color-text-white);
+  text-shadow: 1px 1px 2px var(--color-background-dark); 
 }
 
 .page__link--header {
@@ -113,13 +136,15 @@ body {
   align-items: center;
 }
 
-.main__project {
+.project {
   width: 80%;
   height: 33vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin: .8rem 0;
+
+  border: 1px solid var(--color-border);
 }
 
 .project__image {
@@ -128,28 +153,39 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1.6rem;
 
-  background: red;
+  background: white;
+}
+
+.project__image img{
+  width: 100%;
 }
 
 .project__details {
   width: 60%;
   height: 100%;
-  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.6rem;
+  
 
   background: white;
-}
-
-.project__title {
-
 }
 
 .project__details hr {
   margin: .5rem 0;
 }
 
-.project__description {
+.details__title {
+  font: 700 2.4rem Poppins;
+}
 
+.details__description {
+}
+
+.project__technologies {
 }
 
 .technologies__list {
