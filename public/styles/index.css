@@ -4,6 +4,8 @@
   --color-primary-lighter: #56CCF2;
   --color-primary-light: #2D90DB;
   --color-primary: #2F80ED;
+
+  font-size: 60%;
 }
 
 * {
@@ -17,6 +19,7 @@ html {
 }
 
 body {
+  font: 400 1.6rem Poppins;
   background: pink;
 }
 
@@ -44,7 +47,7 @@ body {
 }
 
 .social__link img {
-  width: 1.6rem;
+  width: 2.6rem;
 }
 
 .page__link {
@@ -52,8 +55,10 @@ body {
 }
 
 .page__link--menu {
-  color: var(--color-text-white);
   margin: 0 1.5rem;
+  
+  font: 400 1.6rem Archivo;
+  color: var(--color-text-white);
 }
 
 #header {
@@ -84,6 +89,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin: .8rem 0;
 }
 
 .project__image {
@@ -155,4 +161,16 @@ body {
 .footer__logo {
   width: 1.6rem;
   margin-left: .5rem;
+}
+
+@media (max-width: 699px) {
+  :root {
+    font-size: 40%;
+  }
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
 }
