@@ -6,7 +6,7 @@
 
 <p align="center">
  
-*A marca <b>RFL</b> existe em mim desde criança, onde o desejo de deixar um registro no mundo já existia em meu coração. Estou colocando para fora, deixar uma marca no mundo da tecnologia é um plano que está apenas começando.*
+*The <b>RFL</b> brand has existed in me since I was a child, where the desire to leave a record in the world already existed in my heart. I'm putting it out there, leaving a mark in the world of technology is a plan that is beginning.*
 
 </p>
 
