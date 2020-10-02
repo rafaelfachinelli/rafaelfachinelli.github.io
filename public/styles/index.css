@@ -70,10 +70,10 @@ body {
 
 @keyframes rotate {
   from {
-    background-position: 100vw;
+    background-position: 0vw;
   }
   to { 
-    background-position: 0vw;
+    background-position: 100vw;
   }
 }
 
@@ -97,6 +97,7 @@ body {
 
 .page__link {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .page__link--menu {
@@ -107,8 +108,12 @@ body {
   color: var(--color-text-white);
 }
 
-.page__link:hover {
+.page__link--menu:hover {
   color: var(--color-secondary);
+}
+
+.page__link--logo {
+  
 }
 
 #header {
