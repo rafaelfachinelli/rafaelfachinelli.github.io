@@ -11,7 +11,7 @@
 </p>
 
 ---
-### :boy: **Autor**
+## :boy: **Autor**
 
 <div align="center">
 
@@ -20,7 +20,7 @@
  <p><sub><b>Rafael Fachinelli</b></sub></p></a>
 
 
-Feito com ❤️ por Rafael Fachinelli 👋🏽 Entre em contato!
+Developed with ❤️ by Rafael Fachinelli 👋🏽 Contact me!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Rafael_Fachinelli-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rafaelfachinelli/)](https://www.linkedin.com/in/rafaelfachinelli/)
 [![Github Badge](https://img.shields.io/badge/-rafaelfachinelli-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/rafaelfachinelli)](https://github.com/rafaelfachinelli)
@@ -28,3 +28,15 @@ Feito com ❤️ por Rafael Fachinelli 👋🏽 Entre em contato!
 [![Outlook Badge](https://img.shields.io/badge/-rafael.fachinelli@fatec.sp.gov.br-0078d4?style=flat-square&logo=microsoft-outlook&logoColor=white&link=mailto:rafael.fachinelli@fatec.sp.gov.br)](mailto:rafael.fachinelli@fatec.sp.gov.br)
 
 </div>
+
+---
+## :page_facing_up: **License**
+
+<div align="center">
+
+Copyright © 2020 [Rafael Fachinelli](https://github.com/rafaelfachinelli).<br />
+Project licensed by [MIT](./LICENSE).
+
+</div>
+
+---
