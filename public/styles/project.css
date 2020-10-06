@@ -40,8 +40,8 @@
 }
 
 .face__image {
-  max-width: 90%;
-  max-height: 90%;
+  width: 90%;
+  height: 90%;
 }
 
 .face__title {
