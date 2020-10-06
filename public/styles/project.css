@@ -67,6 +67,7 @@
 
   color: var(--color-text-white);
   background: var(--color-primary);
+  border-radius: .5rem;
 }
 
 .face__button:hover {
