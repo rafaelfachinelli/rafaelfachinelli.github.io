@@ -183,6 +183,24 @@ body {
   margin-left: .5rem;
 }
 
+.main__about {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 1.6rem 0;
+}
+
+.about__title {
+  margin-bottom: 1.6rem;
+
+  font: 700 2.4rem Poppins;
+}
+
+.about__text {
+  text-align: justify;
+  font: 400 1.6rem Archivo;
+}
+
 @media (max-width: 699px) {
   :root {
     font-size: 40%;
