@@ -32,6 +32,7 @@
   
   background:  rgba(0,0,0,0.90);
   color: var(--color-text-white);
+  border-bottom: 2px solid var(--color-primary);
 }
 
 .face--front:hover .face--back {
