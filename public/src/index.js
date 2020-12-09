@@ -18,7 +18,7 @@ function loadRepositories(repositories) {
   
       const imgFaceImageElement = document.createElement('img');
       imgFaceImageElement.classList.add('face__image');
-      imgFaceImageElement.setAttribute('src', `${repositorie.html_url}/blob/master/.github/banner.svg?raw=true`);
+      imgFaceImageElement.setAttribute('src', `${repositorie.html_url}/blob/${repositorie.default_branch}/.github/banner.svg?raw=true`);
       imgFaceImageElement.setAttribute('alt', repositorie.name);
   
       const divCardFaceBackElement = document.createElement('div');
