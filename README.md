@@ -11,7 +11,7 @@
 </p>
 
 ---
-## :boy: **Autor**
+## :boy: **Author**
 
 <div align="center">
 
